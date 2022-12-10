@@ -1,13 +1,13 @@
 import { React } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { addContact } from 'redux/contactsSlice';
-import { getContacts } from 'redux/selectors';
+import { addContacts } from 'redux/operations';
+import { selectContacts } from 'redux/selectors';
 
 import { FieldName, Field, Wrap, AddButton } from './ContactForm.styled';
 
 function ContactForm() {
-  const contacts = useSelector(getContacts);
+  const contacts = useSelector(selectContacts);
   const dispatch = useDispatch();
 
   const handleSubmit = e => {
@@ -20,7 +20,7 @@ function ContactForm() {
         return alert(`${name.value} is already a contact`);
       }
     }
-    dispatch(addContact(name.value, number.value));
+    dispatch(addContacts({ name: name.value, number: number.value }));
     form.reset();
   };
 
