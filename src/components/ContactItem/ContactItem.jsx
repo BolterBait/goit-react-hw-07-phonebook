@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux/es/hooks/useDispatch';
 import PropTypes from 'prop-types';
 
-import { deleteContacts } from 'redux/operations';
+import { deleteContacts } from 'redux/Contacts/operation';
 
 import { Item, ItemField, DeleteButton } from './ContactItem.styled';
 

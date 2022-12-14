@@ -1,8 +1,8 @@
 import { React } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { addContacts } from 'redux/operations';
-import { selectContacts } from 'redux/selectors';
+import { addContacts } from 'redux/Contacts/operation';
+import { selectContacts } from 'redux/Contacts/selectors';
 
 import { FieldName, Field, Wrap, AddButton } from './ContactForm.styled';
 
