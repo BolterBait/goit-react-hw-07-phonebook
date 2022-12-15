@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "https://bolterbait.github.io/goit-react-hw-08-phonebook/",
   "dependencies": {
+    "@chakra-ui/react": "^2.4.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.10.17",
     "@redux-devtools/extension": "^3.2.3",
     "@reduxjs/toolkit": "^1.9.1",
@@ -11,6 +14,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.1",
+    "framer-motion": "^7.9.1",
     "nanoid": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",

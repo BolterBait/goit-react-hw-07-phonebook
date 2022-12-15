@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Item = styled.li`
 padding: 5px;
-margin-bottom: 10px;`
+margin-bottom: 10px;
+margin-top: 10px;`
 
 export const ItemField = styled.span`
 margin-right: 15px;`

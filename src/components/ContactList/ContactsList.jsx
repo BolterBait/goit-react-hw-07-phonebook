@@ -8,7 +8,8 @@ import {
 } from 'redux/Contacts/selectors';
 
 import { ContactItem } from '../ContactItem/ContactItem';
-import { Container } from './ContactsList.styled';
+
+import { Container, Title } from './ContactsList.styled';
 
 export const ContactsList = () => {
   const filteredContacts = useSelector(selectFilteredContacts);
