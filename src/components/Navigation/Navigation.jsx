@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'components/Navigation/Navigation.styled';
 import { useAuth } from 'hooks';
 
 export const Navigation = () => {
